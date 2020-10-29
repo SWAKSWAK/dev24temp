@@ -2,17 +2,16 @@ testtesttest
 2
 3dsfsdfsdfsdfsdfsdfsdfsdf
 kks!!!!!!!!!
+dodaotndodoantododanto
 4
 5
 6
 7
 8
 0000000000000000000000
-내용 수정
-<<<<<<< HEAD
 a
 b
 c
-=======
 text edit
->>>>>>> branch 'master' of https://github.com/SWAKSWAK/dev24temp.git
+apple
+swakswak
