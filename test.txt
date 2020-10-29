@@ -8,6 +8,10 @@
 8
 0000000000000000000000
 내용 수정
+<<<<<<< HEAD
 a
 b
 c
+=======
+text edit
+>>>>>>> branch 'master' of https://github.com/SWAKSWAK/dev24temp.git
