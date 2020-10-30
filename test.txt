@@ -15,5 +15,7 @@ c
 text edit
 apple
 swakswak
+khangjava
+khang java is testing.
 plz
 1234567890
