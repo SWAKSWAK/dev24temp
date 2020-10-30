@@ -15,3 +15,4 @@ text edit
 apple
 swakswak
 khangjava
+khang java is testing.
