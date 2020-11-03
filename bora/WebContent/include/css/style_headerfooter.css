@@ -4,12 +4,24 @@
     color: inherit;
     margin: 0;
     padding: 0;
+    font-size: 14px;
     font-family: 'Noto Sans KR', sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 body{
     background-color: #fafafa;
     color:#959595;
+    height: 100%;
+}
+
+#content_wrap{
+    min-height:100%;
+    padding-bottom: 180px;
 }
 
 header{
@@ -42,7 +54,7 @@ nav{
     width: 100%;
     position: absolute;
     bottom: 0;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #gnb > li{
@@ -112,7 +124,7 @@ nav{
 /********** util **********/
 
 #util{
-    font-size: 13px;
+    font-size: 12px;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -136,7 +148,7 @@ nav{
 
 #util > li i{
     margin-right: 7px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 /*********** search 검색 박스 ************/
@@ -186,18 +198,18 @@ nav{
 footer{
     border-top: 1px solid #959595; 
     background-color: #dfdfdf;
-    font-size: 15px;
+    font-size: 13px;
     padding-bottom: 20px;
-    position: relative;
+    position: absolute;
     bottom: 0;
-    height: 120px;
+    height: 100px;
     width: 100%;
 }
 
 footer:before{
     content: '';
     display: block;
-    height: 40px;
+    height: 35px;
     position: absolute;
     left: 0;
     right: 0;
@@ -216,8 +228,8 @@ footer:before{
 #footer_menu > li{
     float: left;
     width: calc(100% / 7);
-    height: 40px;
-    line-height: 40px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
 }
 
@@ -228,7 +240,7 @@ footer:before{
 }
 
 #footer_logo{
-    width: 180px;
+    width: 150px;
     position: absolute;
     right: 250px;
     bottom: 0px;
@@ -244,10 +256,10 @@ footer:before{
 }
 
 #footer_p p:first-child{
-    font-size: 20px;
+    font-size: 13px;
     margin-bottom: 10px;
 }
 
 #footer_p p:last-child{
-    font-size: 12px;
+    font-size: 10px;
 }
